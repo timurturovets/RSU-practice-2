@@ -1,9 +1,10 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-int get_bit(int num, int k) {
-	int bit = 1 << k;
-	int result = (num & bit) >> k;
+// This functions returns the bit at the given position in the number.
+int get_bit(int num, int pos) {
+	int bit = 1 << pos;
+	int result = (num & bit) >> pos;
 	return result;
 }
 
