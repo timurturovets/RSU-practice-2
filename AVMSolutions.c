@@ -1,13 +1,13 @@
 ﻿#include <stdio.h>
 #include "task1.h"
 #include "task2.h"
-
-#define _CRT_SECURE_NO_WARNINGS
-#pragma warning disable 6031
+#include "tasks3_4.h"
+#include "task5.h"
 
 int main()
 {
     // task1();
-    task2();
-
+    //task2();
+    //tasks3_4();
+    task5();
 }
