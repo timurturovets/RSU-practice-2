@@ -6,6 +6,11 @@
 #include "task6.h"
 #include "task7.h"
 #include "task8.h"
+#include "task9.h"
+
+#include "task11a.h"
+#include "task11b.h"
+#include "task12.h"
 
 int main()
 {
@@ -15,5 +20,10 @@ int main()
     // task5();
     // task6();
     // task7();
-    task8();
+    // task8();
+    //task9();
+    
+    //task11a();
+    //task11b();
+    task12();
 }
