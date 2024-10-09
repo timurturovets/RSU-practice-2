@@ -7,14 +7,14 @@
 #include "task7.h"
 #include "task8.h"
 #include "task9.h"
-
+#include "task10.h"
 #include "task11a.h"
 #include "task11b.h"
 #include "task12.h"
 
 int main()
 {
-    // task1();
+    task1();
     // task2();
     // tasks3_4();
     // task5();
@@ -22,8 +22,8 @@ int main()
     // task7();
     // task8();
     //task9();
-    
+    //task10();
     //task11a();
     //task11b();
-    task12();
+    //task12();
 }
